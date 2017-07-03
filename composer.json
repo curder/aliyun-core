@@ -3,6 +3,7 @@
     "description": "阿里云 PHP SDK 的核心依赖包的 composer 封装",
     "keywords": ["aliyun", "aliyun-core", "sdk"],
     "license": "MIT",
+    "minimum-stability" : "dev",
     "authors": [
         {
             "name": "curder",
