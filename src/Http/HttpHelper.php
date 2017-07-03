@@ -1,4 +1,5 @@
 <?php namespace Curder\AliyunCore\Http;
+use Curder\AliyunCore\Exception\ClientException;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
