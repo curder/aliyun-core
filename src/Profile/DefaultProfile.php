@@ -17,6 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+use Curder\AliyunCore\Auth\Credential;
+
 class DefaultProfile implements IClientProfile
 {
 	private static $profile;
