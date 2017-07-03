@@ -1,4 +1,5 @@
 <?php namespace Curder\AliyunCore;
+use Curder\AliyunCore\Autoloader\Autoloader;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,6 +18,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 include_once 'Autoloader/Autoloader.php';
 include_once 'Regions/EndpointConfig.php';
 

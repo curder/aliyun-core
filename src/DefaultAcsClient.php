@@ -17,6 +17,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+use Curder\AliyunCore\Exception\ClientException;
+use Curder\AliyunCore\Exception\ServerException;
+use Curder\AliyunCore\Http\HttpHelper;
+use Curder\AliyunCore\Regions\EndpointProvider;
 class DefaultAcsClient implements IAcsClient 
 {    
     public $iClientProfile;

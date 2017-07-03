@@ -1,4 +1,8 @@
-<?php
+<?php namespace Curder\AliyunCore\Regions;
+
+use Curder\AliyunCore\Regions\ProductDomain;
+use Curder\AliyunCore\Regions\Endpoint;
+use Curder\AliyunCore\Regions\EndpointProvider;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

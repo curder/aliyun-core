@@ -1,4 +1,4 @@
-<?php
+<?php namespace Curder\AliyunCore\Autoloader;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-spl_autoload_register("Autoloader::autoload");
+spl_autoload_register("\Curder\AliyunCore\Autoloader::autoload");
 class Autoloader
 {
 	private static $autoloadPathArray = array(
