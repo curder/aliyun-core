@@ -18,5 +18,5 @@
         "psr-4": {
             "Curder\\AliyunCore\\" : "src/"
         }
-    },
+    }
 }
