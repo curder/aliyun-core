@@ -10,7 +10,6 @@
             "email": "curder@foxmail.com"
         }
     ],
-    "minimum-stability": "dev-master",
     "require": {
         "php": ">5.3"
     },
