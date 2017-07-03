@@ -1,0 +1,22 @@
+{
+    "name": "curder/aliyun-core",
+    "description": "阿里云 PHP SDK 的核心依赖包的 composer 封装",
+    "type": "composer-plugin",
+    "keywords": ["aliyun", "aliyun-core", "sdk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "curder",
+            "email": "curder@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Curder\\AliyunCore\\" : "src/",
+        }
+    },
+}
