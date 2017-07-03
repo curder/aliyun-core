@@ -18,6 +18,9 @@
  * under the License.
  */
 use Curder\AliyunCore\Auth\Credential;
+use Curder\AliyunCore\Auth\ShaHmac1Signer;
+use Curder\AliyunCore\Regions\Endpoint;
+use Curder\AliyunCore\Regions\ProductDomain;
 
 class DefaultProfile implements IClientProfile
 {
